@@ -74,7 +74,6 @@ public class TextGenerativeModelServiceImpl implements IGenerativeModelService {
                         emitter.complete();
                         break;
                     }
-
                     // 发送信息
                     try {
                         emitter.send(delta.getContent());
@@ -82,7 +81,6 @@ public class TextGenerativeModelServiceImpl implements IGenerativeModelService {
                         throw new ChatGPTException(e.getMessage());
                     }
                 }
-
             }
         });
     }
