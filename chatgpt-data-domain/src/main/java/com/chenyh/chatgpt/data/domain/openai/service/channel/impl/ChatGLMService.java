@@ -1,7 +1,7 @@
 package com.chenyh.chatgpt.data.domain.openai.service.channel.impl;
 
-import cn.bugstack.chatglm.model.*;
-import cn.bugstack.chatglm.session.OpenAiSession;
+import com.chenyh.chatglm.model.*;
+import com.chenyh.chatglm.session.OpenAiSession;
 import com.chenyh.chatgpt.data.domain.openai.model.aggregates.ChatProcessAggregate;
 import com.chenyh.chatgpt.data.domain.openai.model.entity.MessageEntity;
 import com.chenyh.chatgpt.data.domain.openai.service.channel.OpenAiGroupService;
@@ -32,7 +32,7 @@ public class ChatGLMService implements OpenAiGroupService {
     protected OpenAiSession chatGlMOpenAiSession;
 
     @Override
-    public void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws IOException {
+    public void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws Exception {
         if (null == chatGlMOpenAiSession) {
             emitter.send("ChatGLM 通道，模型调用未开启，可以选择其他模型对话！");
             return;

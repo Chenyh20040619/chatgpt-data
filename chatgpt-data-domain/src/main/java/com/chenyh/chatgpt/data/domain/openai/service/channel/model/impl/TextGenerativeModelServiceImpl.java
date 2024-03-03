@@ -1,14 +1,14 @@
 package com.chenyh.chatgpt.data.domain.openai.service.channel.model.impl;
 
-import cn.bugstack.chatgpt.common.Constants;
+import com.chenyh.chatgpt.common.Constants;
 import com.chenyh.chatgpt.data.domain.openai.model.aggregates.ChatProcessAggregate;
 import com.chenyh.chatgpt.data.domain.openai.service.channel.model.IGenerativeModelService;
 import com.chenyh.chatgpt.data.types.exception.ChatGPTException;
-import cn.bugstack.chatgpt.domain.chat.ChatChoice;
-import cn.bugstack.chatgpt.domain.chat.ChatCompletionRequest;
-import cn.bugstack.chatgpt.domain.chat.ChatCompletionResponse;
-import cn.bugstack.chatgpt.domain.chat.Message;
-import cn.bugstack.chatgpt.session.OpenAiSession;
+import com.chenyh.chatgpt.domain.chat.ChatChoice;
+import com.chenyh.chatgpt.domain.chat.ChatCompletionRequest;
+import com.chenyh.chatgpt.domain.chat.ChatCompletionResponse;
+import com.chenyh.chatgpt.domain.chat.Message;
+import com.chenyh.chatgpt.session.OpenAiSession;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.sse.EventSource;
@@ -25,9 +25,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 文本生成
- * @create 2023-11-25 13:56
  */
 @Slf4j
 @Service

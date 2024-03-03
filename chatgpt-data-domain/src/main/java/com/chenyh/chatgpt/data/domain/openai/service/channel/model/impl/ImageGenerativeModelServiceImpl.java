@@ -1,14 +1,14 @@
 package com.chenyh.chatgpt.data.domain.openai.service.channel.model.impl;
 
-import cn.bugstack.chatgpt.common.Constants;
+import com.chenyh.chatgpt.common.Constants;
 import com.chenyh.chatgpt.data.domain.openai.model.aggregates.ChatProcessAggregate;
 import com.chenyh.chatgpt.data.domain.openai.model.entity.MessageEntity;
 import com.chenyh.chatgpt.data.domain.openai.service.channel.model.IGenerativeModelService;
-import cn.bugstack.chatgpt.domain.images.ImageEnum;
-import cn.bugstack.chatgpt.domain.images.ImageRequest;
-import cn.bugstack.chatgpt.domain.images.ImageResponse;
-import cn.bugstack.chatgpt.domain.images.Item;
-import cn.bugstack.chatgpt.session.OpenAiSession;
+import com.chenyh.chatgpt.domain.images.ImageEnum;
+import com.chenyh.chatgpt.domain.images.ImageRequest;
+import com.chenyh.chatgpt.domain.images.ImageResponse;
+import com.chenyh.chatgpt.domain.images.Item;
+import com.chenyh.chatgpt.session.OpenAiSession;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,9 +20,7 @@ import java.util.List;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 图片生成
- * @create 2023-11-25 13:55
  */
 @Slf4j
 @Service

@@ -6,7 +6,7 @@ import com.chenyh.chatgpt.data.domain.weixin.model.valobj.MsgTypeVO;
 import com.chenyh.chatgpt.data.domain.weixin.repository.IWeiXinRepository;
 import com.chenyh.chatgpt.data.domain.weixin.service.IWeiXinBehaviorService;
 import com.chenyh.chatgpt.data.types.exception.ChatGPTException;
-import com.chenyh.chatgpt.data.types.sdk.weixin.XmlUtil;
+import com.chenyh.chatgpt.data.types.weixin.XmlUtil;
 import com.google.common.cache.Cache;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;

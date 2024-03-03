@@ -1,7 +1,7 @@
 package com.chenyh.chatgpt.data.domain.weixin.service.validate;
 
 import com.chenyh.chatgpt.data.domain.weixin.service.IWeiXinValidateService;
-import com.chenyh.chatgpt.data.types.sdk.weixin.SignatureUtil;
+import com.chenyh.chatgpt.data.types.weixin.SignatureUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

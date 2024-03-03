@@ -11,6 +11,6 @@ import java.io.IOException;
  */
 public interface OpenAiGroupService {
 
-    void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws IOException;
+    void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws Exception;
 
 }
