@@ -1,13 +1,13 @@
 package com.chenyh.chatgpt.data.test;
 
-import cn.bugstack.chatgpt.common.Constants;
+import com.chenyh.chatgpt.common.Constants;
 import com.chenyh.chatgpt.data.trigger.http.dto.ChatGPTRequestDTO;
 import com.chenyh.chatgpt.data.trigger.http.dto.MessageEntity;
 import com.chenyh.chatgpt.data.types.enums.ChatGPTModel;
-import cn.bugstack.chatgpt.domain.chat.ChatCompletionRequest;
-import cn.bugstack.chatgpt.domain.chat.ChatCompletionResponse;
-import cn.bugstack.chatgpt.domain.chat.Message;
-import cn.bugstack.chatgpt.session.OpenAiSession;
+import com.chenyh.chatgpt.domain.chat.ChatCompletionRequest;
+import com.chenyh.chatgpt.domain.chat.ChatCompletionResponse;
+import com.chenyh.chatgpt.domain.chat.Message;
+import com.chenyh.chatgpt.session.OpenAiSession;
 import com.alibaba.fastjson.JSON;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.extern.slf4j.Slf4j;
@@ -25,9 +25,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 测试工程
- * @create 2023-07-16 07:49
  */
 @Slf4j
 @RunWith(SpringRunner.class)

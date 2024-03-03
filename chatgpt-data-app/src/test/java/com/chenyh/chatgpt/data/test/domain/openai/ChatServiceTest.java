@@ -1,11 +1,11 @@
 package com.chenyh.chatgpt.data.test.domain.openai;
 
-import cn.bugstack.chatgpt.common.Constants;
+import com.chenyh.chatgpt.common.Constants;
 import com.chenyh.chatgpt.data.domain.openai.model.aggregates.ChatProcessAggregate;
 import com.chenyh.chatgpt.data.domain.openai.model.entity.MessageEntity;
 import com.chenyh.chatgpt.data.domain.openai.service.IChatService;
 import com.chenyh.chatgpt.data.types.enums.ChatGPTModel;
-import cn.bugstack.chatgpt.domain.chat.ChatCompletionRequest;
+import com.chenyh.chatgpt.domain.chat.ChatCompletionRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

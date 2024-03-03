@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 微信支付测试
  * <p>
  * 【支付渠道选择】
@@ -23,7 +22,6 @@ import org.junit.Test;
  * 3. 商户 API 证书：指由商户申请的，包含证书序列号、商户的商户号、公司名称、公钥信息的证书。https://pay.weixin.qq.com/docs/merchant/development/interface-rules/privatekey-and-certificate.html#%E5%95%86%E6%88%B7api%E8%AF%81%E4%B9%A6
  * 4. 商户 API 私钥：商户申请商户API证书时，会生成商户私钥，并保存在本地证书文件夹的文件 apiclient_key.pem 中。https://pay.weixin.qq.com/docs/merchant/development/interface-rules/privatekey-and-certificate.html#%E5%95%86%E6%88%B7api%E7%A7%81%E9%92%A5
  * 5. APIv3 密钥：为了保证安全性，微信支付在回调通知和平台证书下载接口中，对关键信息进行了 AES-256-GCM 加密。APIv3 密钥是加密时使用的对称密钥。https://pay.weixin.qq.com/docs/merchant/development/interface-rules/apiv3key.html
- * @create 2023-10-05 11:00
  */
 @Slf4j
 public class WeChatPayTest {
