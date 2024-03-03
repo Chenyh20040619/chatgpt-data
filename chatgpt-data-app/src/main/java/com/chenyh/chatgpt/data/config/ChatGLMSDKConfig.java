@@ -19,7 +19,7 @@ public class ChatGLMSDKConfig {
     @ConditionalOnProperty(value = "chatglm.sdk.config.enabled", havingValue = "true", matchIfMissing = false)
     public OpenAiSession openAiSession(ChatGLMSDKConfigProperties properties) {
         // 1. 配置文件
-        cn.bugstack.chatglm.session.Configuration configuration = new cn.bugstack.chatglm.session.Configuration();
+        com.chenyh.chatglm.session.Configuration configuration = new com.chenyh.chatglm.session.Configuration();
         configuration.setApiHost(properties.getApiHost());
         configuration.setApiSecretKey(properties.getApiSecretKey());
 

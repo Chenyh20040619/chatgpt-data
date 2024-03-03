@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.data.test.domain.auth;
+package com.chenyh.chatgpt.data.test.domain.auth;
 
 import com.chenyh.chatgpt.data.domain.auth.model.entity.AuthStateEntity;
 import com.chenyh.chatgpt.data.domain.auth.service.IAuthService;

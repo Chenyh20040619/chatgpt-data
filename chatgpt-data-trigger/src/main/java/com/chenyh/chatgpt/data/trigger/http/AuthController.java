@@ -9,7 +9,7 @@ import com.chenyh.chatgpt.data.domain.weixin.model.valobj.MsgTypeVO;
 import com.chenyh.chatgpt.data.domain.weixin.service.IWeiXinBehaviorService;
 import com.chenyh.chatgpt.data.types.common.Constants;
 import com.chenyh.chatgpt.data.types.model.Response;
-import com.chenyh.chatgpt.data.types.sdk.weixin.XmlUtil;
+import com.chenyh.chatgpt.data.types.weixin.XmlUtil;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

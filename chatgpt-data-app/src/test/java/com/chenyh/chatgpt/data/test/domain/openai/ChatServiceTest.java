@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.data.test.domain.openai;
+package com.chenyh.chatgpt.data.test.domain.openai;
 
 import cn.bugstack.chatgpt.common.Constants;
 import com.chenyh.chatgpt.data.domain.openai.model.aggregates.ChatProcessAggregate;

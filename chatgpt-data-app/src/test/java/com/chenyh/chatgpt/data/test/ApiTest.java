@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.data.test;
+package com.chenyh.chatgpt.data.test;
 
 import cn.bugstack.chatgpt.common.Constants;
 import com.chenyh.chatgpt.data.trigger.http.dto.ChatGPTRequestDTO;

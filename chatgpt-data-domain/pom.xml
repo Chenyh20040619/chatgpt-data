@@ -59,7 +59,7 @@
         </dependency>
 
         <dependency>
-            <groupId>cn.bugstack</groupId>
+            <groupId>com.chenyh</groupId>
             <artifactId>chatgpt-data-types</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

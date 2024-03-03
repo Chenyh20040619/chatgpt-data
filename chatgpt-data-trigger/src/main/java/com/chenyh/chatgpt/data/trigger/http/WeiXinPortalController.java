@@ -4,7 +4,7 @@ import com.chenyh.chatgpt.data.domain.weixin.model.entity.MessageTextEntity;
 import com.chenyh.chatgpt.data.domain.weixin.model.entity.UserBehaviorMessageEntity;
 import com.chenyh.chatgpt.data.domain.weixin.service.IWeiXinBehaviorService;
 import com.chenyh.chatgpt.data.domain.weixin.service.IWeiXinValidateService;
-import com.chenyh.chatgpt.data.types.sdk.weixin.XmlUtil;
+import com.chenyh.chatgpt.data.types.weixin.XmlUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;

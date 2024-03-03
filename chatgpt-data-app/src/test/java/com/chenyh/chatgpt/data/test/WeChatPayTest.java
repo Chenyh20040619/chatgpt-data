@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.data.test;
+package com.chenyh.chatgpt.data.test;
 
 import com.alibaba.fastjson2.JSON;
 import com.wechat.pay.java.core.Config;

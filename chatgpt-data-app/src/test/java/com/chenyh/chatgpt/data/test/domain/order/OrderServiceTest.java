@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.data.test.domain.order;
+package com.chenyh.chatgpt.data.test.domain.order;
 
 import com.chenyh.chatgpt.data.domain.order.model.entity.PayOrderEntity;
 import com.chenyh.chatgpt.data.domain.order.model.entity.ShopCartEntity;

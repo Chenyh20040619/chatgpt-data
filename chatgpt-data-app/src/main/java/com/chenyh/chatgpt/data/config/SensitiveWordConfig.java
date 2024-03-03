@@ -1,4 +1,4 @@
-package cn.bugstack.chatgpt.data.config;
+package com.chenyh.chatgpt.data.config;
 
 import com.github.houbb.sensitive.word.bs.SensitiveWordBs;
 import com.github.houbb.sensitive.word.utils.InnerWordCharUtils;
@@ -7,9 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 敏感词配置
- * @create 2023-09-16 17:38
  */
 @Slf4j
 @Configuration

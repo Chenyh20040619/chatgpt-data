@@ -19,7 +19,7 @@ public class ChatGPTSDKConfig {
     @ConditionalOnProperty(value = "chatgpt.sdk.config.enabled", havingValue = "true", matchIfMissing = false)
     public OpenAiSession openAiSession(ChatGPTSDKConfigProperties properties) {
         // 1. 配置文件
-        cn.bugstack.chatgpt.session.Configuration configuration = new cn.bugstack.chatgpt.session.Configuration();
+        com.chenyh.chatgpt.session.Configuration configuration = new com.chenyh.chatgpt.session.Configuration();
         configuration.setApiHost(properties.getApiHost());
         configuration.setAuthToken(properties.getAuthToken());
         configuration.setApiKey(properties.getApiKey());
