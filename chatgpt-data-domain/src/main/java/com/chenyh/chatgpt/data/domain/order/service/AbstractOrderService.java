@@ -11,9 +11,7 @@ import javax.annotation.Resource;
 import java.math.BigDecimal;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
  * @description 抽象订单服务
- * @create 2023-10-05 13:12
  */
 @Slf4j
 public abstract class AbstractOrderService implements IOrderService {

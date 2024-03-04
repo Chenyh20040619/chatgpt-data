@@ -51,13 +51,6 @@ public class SaleController {
 
     /**
      * 商品列表查询
-     * 开始地址：http://localhost:8091/api/v1/sale/query_product_list
-     * 测试地址：http://apix.natapp1.cc/api/v1/sale/query_product_list
-     * <p>
-     * curl -X GET \
-     * -H "Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJveGZBOXc4LTI..." \
-     * -H "Content-Type: application/x-www-form-urlencoded" \
-     * http://localhost:8091/api/v1/sale/query_product_list
      */
     @RequestMapping(value = "query_product_list", method = RequestMethod.GET)
     public Response<List<SaleProductDTO>> queryProductList(@RequestHeader("Authorization") String token) {
@@ -103,14 +96,6 @@ public class SaleController {
 
     /**
      * 用户商品下单
-     * 开始地址：http://localhost:8091/api/v1/sale/create_pay_order?productId=
-     * 测试地址：http://apix.natapp1.cc/api/v1/sale/create_pay_order
-     * <p>
-     * curl -X POST \
-     * -H "Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJveGZBOXc4LTI..." \
-     * -H "Content-Type: application/x-www-form-urlencoded" \
-     * -d "productId=1001" \
-     * http://localhost:8091/api/v1/sale/create_pay_order
      */
     @RequestMapping(value = "create_pay_order", method = RequestMethod.POST)
     public Response<String> createParOrder(@RequestHeader("Authorization") String token, @RequestParam Integer productId) {
@@ -152,9 +137,6 @@ public class SaleController {
 
     /**
      * 支付回调
-     * 开发地址：http:/localhost:8091/api/v1/sale/pay_notify
-     * 测试地址：http://apix.natapp1.cc/api/v1/sale/pay_notify
-     * 线上地址：https://你的域名/api/v1/sale/pay_notify
      */
     @PostMapping("pay_notify")
     public void payNotify(@RequestBody String requestBody, HttpServletRequest request, HttpServletResponse response) throws IOException {
